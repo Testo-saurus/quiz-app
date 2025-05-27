@@ -9,8 +9,10 @@ h1 {
   justify-content: center;
 
   width: 100vw;
-  background-color: var(--beige-300);
+  background-color: var(--beige-100);
 
   text-transform: uppercase;
   text-decoration: overline;
+  margin-bottom: 1rem;
+  margin-top: 0;
 }
