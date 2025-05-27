@@ -1,0 +1,16 @@
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+}
+
+.profile-stats-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.stat-heading-numb {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
