@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
 
-  background-color: violet;
+  background-color: var(--beige-300);
   gap: 1rem;
   list-style: none;
   height: 2rem;
