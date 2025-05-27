@@ -3,6 +3,27 @@
 ::before {
   box-sizing: border-box;
 }
+
+:root {
+  /* Base colors */
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+
+  /* Neutral palette */
+  --beige-100: #f5f3ef;
+  --beige-200: #ece7db;
+  --beige-300: #e0d9c7;
+  --beige-400: #d4c9b0;
+
+  /* Button colors */
+  --button-bg: #121212;
+  --button-text: #ffffff;
+
+  /* Border and misc */
+  --border: darkgray;
+  --card-bg: #ffffff;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -10,6 +31,7 @@ body {
   min-height: 100vh; /* 100% viewhight needed in order to make pushing down the navbar */
   font-family: monospace;
   overscroll-behavior-y: none;
+  margin-top: 0;
 }
 
 .main-content {
