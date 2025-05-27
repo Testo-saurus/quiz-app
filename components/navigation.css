@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
 
-  background-color: var(--beige-300);
+  background-color: var(--beige-100);
   gap: 1rem;
   list-style: none;
   height: 2rem;
@@ -19,4 +19,19 @@
 
 .nav-links li a {
   color: black;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+/* Active state styling */
+.nav-links li a.active {
+  background-color: var(--beige-300);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* hover state */
+.nav-links li a:hover:not(.active) {
+  background-color: var(--beige-200);
 }

@@ -1,16 +1,56 @@
+.profile-picture {
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  object-position: center -30%; /* Move focus point up to show more of the face */
+  /* Adjust the second value to change vertical position: 
+     - Lower percentage (0%) shows more of the top
+     - Higher percentage (100%) shows more of the bottom */
+}
+
 .profile-card {
   display: flex;
   flex-direction: column;
-  border: 1px solid;
+  border: 1px var(--beige-100);
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.img-name-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-stats-container h3,
+.profile-stats-container p {
+  text-align: left;
+
+  margin: 0;
 }
 
 .profile-stats-container {
   display: flex;
+  justify-content: flex-end;
   gap: 1rem;
 }
 
-.stat-heading-numb {
+.stat-item {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background-color: var(--beige-100);
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+
   gap: 0.1rem;
+}
+
+.stat-label {
+  text-align: center;
+
+  word-break: break-word;
 }
