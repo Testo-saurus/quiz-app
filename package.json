@@ -1,0 +1,9 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "Quiz Application",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx -y live-server@latest --port=3000"
+  }
+}

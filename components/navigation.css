@@ -1,0 +1,22 @@
+.navbar {
+  position: fixed; /* had to fix the navbar because with just flexbox the navbar was wiggely */
+  bottom: 0;
+  width: 100%;
+  z-index: 100; /* Ensures navbar stays on top of other content */
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: violet;
+  gap: 1rem;
+  list-style: none;
+  height: 2rem;
+  margin: 0;
+}
+
+.nav-links li a {
+  color: black;
+}
