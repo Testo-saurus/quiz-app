@@ -40,4 +40,12 @@ body {
   flex-grow: 1; /* .main-content grows to fill space pushing .navbar down. */
   padding: 0 0.5rem;
   padding-bottom: 3rem; /* Add padding to the bottom to prevent navbar overlap */
+
+  padding-top: 5.5rem; /* Add padding to the top to prevent overlap with the header*/
+}
+
+@media screen and (max-width: 480px) {
+  .main-content {
+    padding-top: 4.5rem;
+  }
 }

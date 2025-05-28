@@ -16,6 +16,9 @@
   border: 1px var(--beige-100);
   border-radius: 4px;
   padding: 0.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .img-name-item {
