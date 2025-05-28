@@ -31,9 +31,13 @@ body {
   min-height: 100vh; /* 100% viewhight needed in order to make pushing down the navbar */
   font-family: monospace;
   overscroll-behavior-y: none;
+  margin: 0; /* Reset all margins */
+  padding: 0; /* Reset all padding */
   margin-top: 0;
 }
 
 .main-content {
   flex-grow: 1; /* .main-content grows to fill space pushing .navbar down. */
+  padding: 0 0.5rem;
+  padding-bottom: 3rem; /* Add padding to the bottom to prevent navbar overlap */
 }
