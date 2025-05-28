@@ -11,14 +11,11 @@
 }
 
 .profile-card {
-  display: flex;
-  flex-direction: column;
   border: 1px var(--beige-100);
+  border: solid 1px;
   border-radius: 4px;
   padding: 0.5rem;
   max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .img-name-item {

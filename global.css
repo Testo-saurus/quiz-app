@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
   min-height: 100vh; /* 100% viewhight needed in order to make pushing down the navbar */
   font-family: monospace;
   overscroll-behavior-y: none;
