@@ -10,8 +10,8 @@ btn.addEventListener("click", () => {
     : (icon.src = "assets/img/bookmark_24dp_1F1F1F_FILL0.svg");
 });
 
-// Get all bookmark buttons on the page
-//const bookmarkButtons = document.querySelectorAll(".bookmark-btn");
+// //Get all bookmark buttons on the page
+// const bookmarkButtons = document.querySelectorAll(".bookmark-btn");
 
 // // Add event listeners to each button
 // bookmarkButtons.forEach((btn) => {
