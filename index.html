@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
     <link rel="stylesheet" href="./styles.css" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <header class="header">
@@ -19,10 +15,15 @@
       <article class="card">
         <h2>HTML TAG Question</h2>
 
-        <span class="material-icons bookmark-icon-border">bookmark_border</span>
-       
-        <!-- <span class="material-icons bookmark-icon-filled">bookmark</span>
-         -->
+        <button class="bookmark-btn">
+          <img
+            class="bookmark-icon"
+            src="assets/img/bookmark_24dp_1F1F1F_FILL0.svg"
+            alt="bookmark icon"
+            height="24px"
+            width="24px"
+          />
+        </button>
 
         <div class="tags">
           <span class="tag">html</span>
@@ -41,9 +42,15 @@
       <article class="card">
         <h2>CSS Selectors</h2>
 
-        <span class="material-icons bookmark-icon-border">bookmark_border</span>
-        <!-- Unfilled/outlined bookmark -->
-       
+        <button class="bookmark-btn">
+          <img
+            class="bookmark-icon"
+            src="assets/img/bookmark_24dp_1F1F1F_FILL0.svg"
+            alt="bookmark icon"
+            height="24px"
+            width="24px"
+          />
+        </button>
 
         <div class="tags">
           <span class="tag">css</span>
@@ -52,7 +59,8 @@
         </div>
 
         <p>
-          What is the difference between a class selector and an ID selector in CSS, and when should each be used?
+          What is the difference between a class selector and an ID selector in
+          CSS, and when should each be used?
         </p>
 
         <button class="card-button">Show Answer</button>
@@ -61,9 +69,15 @@
       <article class="card">
         <h2>Flexbox Layout</h2>
 
-        <span class="material-icons bookmark-icon-border">bookmark_border</span>
-        <!-- Unfilled/outlined bookmark -->
-        
+        <button class="bookmark-btn">
+          <img
+            class="bookmark-icon"
+            src="assets/img/bookmark_24dp_1F1F1F_FILL0.svg"
+            alt="bookmark icon"
+            height="24px"
+            width="24px"
+          />
+        </button>
 
         <div class="tags">
           <span class="tag">css</span>
@@ -72,15 +86,11 @@
         </div>
 
         <p>
-          In CSS Flexbox, what is the purpose of the <code>justify-content</code> property and what are some of its possible values?
+          In CSS Flexbox, what is the purpose of the
+          <code>justify-content</code> property and what are some of its
+          possible values?
         </p>
 
-        <button class="card-button">Show Answer</button>
-      </article>
-    </main>
-
-    <nav class="navbar">
-      <ul class="nav-links">
         <button class="card-button">Show Answer</button>
       </article>
     </main>
@@ -92,5 +102,7 @@
         <li><a href="profile.html">Profile</a></li>
       </ul>
     </nav>
+
+    <script src="./js/index.js" type="module"></script>
   </body>
 </html>

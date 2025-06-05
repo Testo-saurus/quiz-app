@@ -19,19 +19,6 @@
   }
 }
 
-.bookmark-icon-filled {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  cursor: pointer;
-}
-.bookmark-icon-border {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  cursor: pointer;
-}
-
 .tag {
   border: 1px solid var(--border);
   border-radius: 999px;
@@ -50,4 +37,13 @@
   color: white;
   border: 1px solid black;
   font-family: monospace;
+}
+
+.bookmark-btn {
+  all: unset;
+  cursor: pointer;
+  display: inline-flex;
+  position: absolute;
+  top: 8px;
+  right: 8px;
 }
