@@ -58,12 +58,12 @@
 
   /* Simple transition properties */
 
-  overflow: hidden;
-  transition: max-height 0.4s ease, opacity 0.3s ease;
-  max-height: 300px;
+  overflow: hidden; /* The hidden value means: "Any content that exceeds the element's box is clipped and not visible." */
+  transition: 0.4s ease;
 }
 
 .hidden {
+  /* display:none does not work with transitions */
   max-height: 0;
   opacity: 0;
   padding: 0;
