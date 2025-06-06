@@ -1,0 +1,22 @@
+textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+label {
+  display: inline-block; /* needed, because label elements in HTML are inline elements by default, and margins don't fully apply to inline elements in the vertical direction. */
+  margin-bottom: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+}

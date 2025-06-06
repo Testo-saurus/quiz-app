@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Add Card</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>quiz app</h1>
+    </header>
+
+    <main class="main-content">
+      <h1></h1>
+      <form id="form">
+        <div class="form-group">
+          <label for="question-field">Your question:</label>
+          <textarea
+            name="question"
+            id="question-field"
+            rows="4"
+            placeholder="Why do we exist? "
+          ></textarea>
+
+          <input
+            type="text"
+            name="questionTitle"
+            id="title"
+            placeholder="The Question of all Questions"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="answer-field">Your answer:</label>
+          <textarea
+            name="answer"
+            id="answer-field"
+            rows="4"
+            placeholder="42"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="tag">Give Tag:</label>
+          <input type="text" name="" id="tag" placeholder="Existential " />
+        </div>
+
+        <button type="submit">Submit Question</button>
+      </form>
+    </main>
+
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bookmarks.html">Bookmarks</a></li>
+        <li><a href="addCard.html" class="active">add Question</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+    <script src="./js/addCard.js"></script>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
