@@ -3,15 +3,20 @@ textarea {
   border: 1px solid #ddd;
   border-radius: 4px;
   font-family: inherit;
+  padding-right: 45px;
 }
 
 label {
   display: inline-block; /* needed, because label elements in HTML are inline elements by default, and margins don't fully apply to inline elements in the vertical direction. */
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
 }
 
 .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form-group textarea {
+  margin-bottom: 0.5rem;
 }
 
 input {
@@ -19,4 +24,39 @@ input {
   border: 1px solid #ddd;
   border-radius: 4px;
   font-family: inherit;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+.submit-question-btn {
+  cursor: pointer;
+  width: 100%; /* Makes button full width of container */
+  max-width: 300px; /* Limits maximum width to 300px */
+  display: block;
+  margin-left: auto; /* Centers the button if width is less than container */
+  margin-right: auto;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem; /* Horizontal padding larger than vertical */
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  font-family: monospace;
+}
+
+/* character counter styling -  inside the text area */
+
+.position-relative {
+  position: relative;
+}
+
+.character-counter {
+  position: absolute;
+  top: 24px;
+  right: 10px;
+  font-size: 12px;
+  color: #6c757d;
+  pointer-events: none; /* Makes the counter non-interactive */
+  background-color: transparent;
 }

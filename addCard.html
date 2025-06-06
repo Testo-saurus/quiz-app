@@ -14,20 +14,25 @@
     <main class="main-content">
       <h1></h1>
       <form id="form">
-        <div class="form-group">
+        <div class="form-group position-relative">
           <label for="question-field">Your question:</label>
           <textarea
             name="question"
             id="question-field"
             rows="4"
             placeholder="Why do we exist? "
+            required
           ></textarea>
 
+          <div id="charCount" class="character-counter">0/150</div>
+
+          <label for="title">Question Title :</label>
           <input
             type="text"
             name="questionTitle"
             id="title"
             placeholder="The Question of all Questions"
+            required
           />
         </div>
 
@@ -38,15 +43,24 @@
             id="answer-field"
             rows="4"
             placeholder="42"
+            required
           ></textarea>
         </div>
 
         <div class="form-group">
           <label for="tag">Give Tag:</label>
-          <input type="text" name="" id="tag" placeholder="Existential " />
+          <input
+            type="text"
+            name=""
+            id="tag"
+            placeholder="Existential "
+            required
+          />
         </div>
 
-        <button type="submit">Submit Question</button>
+        <button class="submit-question-btn" type="submit">
+          Submit Question
+        </button>
       </form>
     </main>
 
@@ -59,6 +73,9 @@
       </ul>
     </nav>
     <script src="./js/addCard.js"></script>
+    <script src="./js/cards.js"></script>
+    <script src="./js/charCounter.js"></script>
+
     <script src="./js/index.js" type="module"></script>
   </body>
 </html>
