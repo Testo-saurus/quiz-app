@@ -20,3 +20,22 @@ input {
   border-radius: 4px;
   font-family: inherit;
 }
+
+form {
+  margin-bottom: 2rem;
+}
+
+.submit-question-btn {
+  cursor: pointer;
+  width: 100%; /* Makes button full width of container */
+  max-width: 300px; /* Limits maximum width to 300px */
+  display: block;
+  margin-left: auto; /* Centers the button if width is less than container */
+  margin-right: auto;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem; /* Horizontal padding larger than vertical */
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  font-family: monospace;
+}
